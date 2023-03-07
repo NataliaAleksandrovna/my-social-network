@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/NataliaAleksandrovna.github.io/my-social-network/precache-manifest.66868468ea5b97bdf1155adaaa34643f.js"
+  "/my-social-network/precache-manifest.ce00d008599fa3905ba68e532ccfdd3f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/NataliaAleksandrovna.github.io/my-social-network/index.html", {
+workbox.routing.registerNavigationRoute("/my-social-network/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
